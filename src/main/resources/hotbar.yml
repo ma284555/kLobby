@@ -1,0 +1,24 @@
+# Executáveis:
+# CORE>jogos
+# CORE>perfil
+# CORE>jogadores
+# LOBBY>lobbies
+# COMANDO>exemplo
+# MENSAGEM>&aExemplo
+lobby:
+  bussola:
+    slot: 1
+    execute: 'CORE>jogos'
+    icon: 'COMPASS : 1 : nome>&eMinigames : desc>&7Sabemos que é uma difícil escolha...'
+  perfil:
+    slot: 2
+    execute: 'CORE>perfil'
+    icon: '%perfil%SKULL_ITEM:3 : 1 : nome>&eMeu Perfil : desc>&7Clique para ver suas\n&7informações pessoais!'
+  jogadores:
+    slot: 8
+    execute: 'CORE>jogadores'
+    icon: 'INK_SACK:%kcore_status_jogadores_inksack% : 1 : nome>&fJogadores: %kcore_status_jogadores_nome% : desc>&7Clique para que os jogadores\n&7desapareçam!'
+  lobbies:
+    slot: 9
+    execute: 'LOBBY>lobbies'
+    icon: 'NETHER_STAR : 1 : nome>&eLobbies : desc>&7Clique para selecionar um lobby!'
